@@ -1,7 +1,3 @@
-/**
- * @param {number} x
- * @return {boolean}
- */
 var isPalindrome = function (x) {
     let s = x.toString();
     let str = s.split("").reverse().join("");
@@ -12,3 +8,4 @@ var isPalindrome = function (x) {
         return false;
     }
 };
+console.log(isPalindrome(123));
